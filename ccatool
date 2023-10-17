@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+
+import argparse
+from main import path
+# def process_folder(folder_path):
+#     # Implement functionality to process the folder
+#     ...
+#     output_folder_path, image_num = path(folder_path)
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Your CLI module description')
+    parser.add_argument('folder', help='Path to the folder to process')
+    args = parser.parse_args()
+    folder_path = args.folder
+
+    output_folder_path, image_num = path(folder_path)
+    print(output_folder_path, "\n", image_num)
+
+if __name__ == '__main__':
+    main()

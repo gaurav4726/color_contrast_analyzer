@@ -1,0 +1,11 @@
+colormap
+extcolors
+Flask
+matplotlib
+numpy
+opencv-python
+opencv-python-headless
+pandas
+Pillow==9.5.0
+pytesseract
+easydev

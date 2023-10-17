@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "sharp": "^0.32.4",
+    "svg-to-img": "^2.0.9"
+  }
+}
